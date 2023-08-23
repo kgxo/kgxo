@@ -26,16 +26,9 @@ function Bio({ author, language = 'ko' }) {
       ) : (
         <div className="introduction english">
           <p className="title">
-            Hello,
-            <br />
-            my name is
-            <br />
-            <strong>{name}</strong>
-            .<br />
+            <strong><ReactRotatingText items={bio.description} /></strong>
           </p>
           <p className="description">
-            I'm a {bio.role} <ReactRotatingText items={bio.description} />
-            <br />
           </p>
           <div className="social-links">
             <IconButtonBar links={social} />
