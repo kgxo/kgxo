@@ -1,7 +1,7 @@
 ---
 emoji: 🧢
 title: August 2023
-date: '2023-08-01 00:00:00'
+date: '2023-08-08 00:00:00'
 author: jo
 tags: alineaday
 categories: monthly
