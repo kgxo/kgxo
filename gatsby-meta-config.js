@@ -14,7 +14,7 @@ module.exports = {
     name: `jo`,
     bio: {
       role: ``,
-      description: ['K stands for the place where I come from', 'G means where I am residing now',],
+      description: ['kgxo.space', 'what does kgxo mean?', '🧢😎🥽🖖', '🌊🛶🏄‍♂️✈️💮💯'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
