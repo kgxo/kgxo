@@ -11,7 +11,7 @@ import PostTabs from '../components/post-tabs';
 function HomePage({ data }) {
   const posts = data.allMarkdownRemark.edges.map(({ node }) => new Post(node));
   const { author, language } = data.site.siteMetadata;
-  const categories = ['posts', ...getUniqueCategories(posts)];
+  const categories = ['all posts', ...getUniqueCategories(posts)];
   const featuredTabIndex = categories.findIndex((category) => category === 'featured');
   const [tabIndex, setTabIndex] = useState(featuredTabIndex === -1 ? 0 : featuredTabIndex);
   const onTabIndexChange = useCallback((e, value) => setTabIndex(value), []);
@@ -43,7 +43,7 @@ export const pageQuery = graphql`
           frontmatter {
             categories
             title
-            date(formatString: "DD MMM YY")
+            date(formatString: "DD MMMM YYYY")
           }
           fields {
             slug

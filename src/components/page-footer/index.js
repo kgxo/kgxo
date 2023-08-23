@@ -8,9 +8,9 @@ function PageFooter({ author, githubUrl }) {
         © {new Date().getFullYear()}
         &nbsp;
         <a href={githubUrl}>{author}</a>
-        |&nbsp;
+        &nbsp;|&nbsp;
         <a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog">
-        theme by
+        theme resource
         </a>
       </p>
     </footer>

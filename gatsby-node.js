@@ -26,7 +26,7 @@ const createBlogPages = ({ createPage, results }) => {
 
 const createPostsPages = ({ createPage, results }) => {
   const categoryTemplate = require.resolve(`./src/templates/category-template.js`);
-  const categorySet = new Set(['posts']);
+  const categorySet = new Set(['all posts']);
   const { edges } = results.data.allMarkdownRemark;
 
   edges.forEach(({ node }) => {
@@ -39,7 +39,7 @@ const createPostsPages = ({ createPage, results }) => {
   createPage({
     path: `/posts`,
     component: categoryTemplate,
-    context: { currentCategory: 'posts', edges, categories },
+    context: { currentCategory: 'all posts', edges, categories },
   });
 
   categories.forEach((currentCategory) => {
@@ -71,7 +71,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             frontmatter {
               categories
               title
-              date(formatString: "DD MMM YY")
+              date(formatString: "DD MMMM YYYY")
             }
           }
           next {

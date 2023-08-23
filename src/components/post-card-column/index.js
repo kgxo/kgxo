@@ -22,7 +22,7 @@ function PostCardColumn({ posts, showMoreButton, moreUrl }) {
             variant="contained"
             disableElevation
           >
-            More
+            ⬇️
           </Button>
         )}
       </div>

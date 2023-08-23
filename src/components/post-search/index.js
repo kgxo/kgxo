@@ -36,7 +36,7 @@ function PostSearch({ posts }) {
           />
         </div>
       )}
-      noOptionsText="해당하는 글이 없습니다."
+      noOptionsText="No result"
     />
   );
 }
