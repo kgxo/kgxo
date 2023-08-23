@@ -11,12 +11,12 @@ function AboutPage({ data }) {
   const { author, about, language } = metaData;
   const { timestamps, projects } = about;
   return (
-    // <Layout>
-    //   <Seo title="About" />
-    //   <Bio author={author} language={language} />
-    //   <TimeStampSection timestamps={timestamps} />
-    //   <ProjectSection projects={projects} />
-    // </Layout>
+    <Layout>
+      <Seo title="About" />
+      <Bio author={author} language={language} />
+      <TimeStampSection timestamps={timestamps} />
+      <ProjectSection projects={projects} />
+    </Layout>
   );
 }
 
