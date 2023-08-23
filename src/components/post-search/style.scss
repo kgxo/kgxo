@@ -35,12 +35,11 @@
     }
 
     .MuiInput-underline:before {
-        border-bottom-color: none;
-        border-bottom-width: 0px;
+        border-bottom-color: var(--primary-text-color);
+        border-bottom-width: 1px;
     }
 
     .MuiInput-underline:after {
-        border-bottom-color: none;
-        border-bottom-width: 0px;
+        border-bottom-color: var(--primary-text-color);
     }
 }
