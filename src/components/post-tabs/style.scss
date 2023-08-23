@@ -30,15 +30,13 @@
         transition: all 200ms ease;
 
         :hover {
-          color: var(--tab-text-color);
-          border-bottom: 2px solid var(--tab-hover-text-color);
+          border-bottom: 2px solid var(--tab-text-color);
           transition: all 200ms ease;
         }
       }
 
       .Mui-selected {
-        color: var(--tab-text-color);
-        border-bottom: 2px solid var(--tab-hover-text-color);
+        border-bottom: 2px solid var(--tab-text-color);
         font-weight: 600;
         transition: all 200ms ease;
       }
