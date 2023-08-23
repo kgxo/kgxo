@@ -14,8 +14,8 @@ module.exports = {
     name: `jo`,
     bio: {
       role: ``,
-      description: ``,
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      description: ['적도🌴', '참치주먹밥🍙', '카약🚣🏼‍♂️', '캡🧢', '수상 스포츠🥽'],
+      thumbnail: 'main.gif', // Path to the image in the 'asset' folder
     },
     social: {
       github: ``,

@@ -11,6 +11,13 @@ function PostCard({ post }) {
         <p className="description" dangerouslySetInnerHTML={{ __html: excerpt }} />
         <div className="info">
           <div className="date">{date}</div>
+          <div className="categories">
+            {categories.map((category) => (
+              <Link className="category" key={category} to={`/posts/${category}`}>
+                {category}
+              </Link>
+            ))}
+          </div>
         </div>
       </Link>
     </div>
