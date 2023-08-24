@@ -9,4 +9,4 @@ categories: x
 
 ![](./aug23.gif)
 
-Self-made Twitter -- Aug 2023
+Self-made Twitter -- August 2023

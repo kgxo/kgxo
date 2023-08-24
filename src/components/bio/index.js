@@ -26,9 +26,10 @@ function Bio({ author, language = 'ko' }) {
       ) : (
         <div className="introduction english">
           <p className="title">
-          <strong><ReactRotatingText items={bio.description} /></strong>
+          {/* <ReactRotatingText items={bio.description} /> */}
+          🏹🌴✖️🧢🥽🚣🏼‍♂️
           <br />
-          .space
+          dot space
           </p>
         </div>
       )}
