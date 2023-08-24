@@ -35,7 +35,7 @@
     word-break: keep-all;
 
     .react-rotating-text-cursor {
-      animation: none;
+      display:none;
     }
 
     strong {
@@ -90,7 +90,7 @@
       .description {
         font-weight: 200;
         margin-top: 8px;
-        font-size: 30px;
+        font-size: 40px;
       }
 
       .social-links {
