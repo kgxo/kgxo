@@ -1,6 +1,6 @@
 module.exports = {
   title: `kgxo.space`,
-  description: `a day a line`,
+  description: `it was always meant to be`,
   language: `en`, 
   siteUrl: `https://kgxo.space`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
@@ -14,7 +14,7 @@ module.exports = {
     name: `jo`,
     bio: {
       role: ``,
-      description: ['적도🌴', '참치주먹밥🍙', '카약🚣🏼‍♂️', '캡🧢', '수상 스포츠🥽'],
+      description: ['kgxo','🇰🇷🇸🇬✖️🧢','🏹🌴✖️🥽'],
       thumbnail: 'main.gif', // Path to the image in the 'asset' folder
     },
     social: {
