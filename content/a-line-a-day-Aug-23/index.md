@@ -1,7 +1,7 @@
 ---
 emoji: 🧢
 title: '[a-line-a-day] Aug 23'
-date: '2023-08-08 00:00:00'
+date: '2023-08-23 00:00:00'
 author: jo
 tags: 
 categories: x
